@@ -1,5 +1,23 @@
-Git zadatak
+1.Git zadatak
 Kreirati novi fajl u paketu sa danasnjeg predavanja. Fajl se zove teksotvi_zadataka.txt i u njemu pejstujte tekst odavde
 Kreirati novu java klasu Git_Zadatak1.java i u njoj ispisite na ekranu sve git naredbe koje smo radili
 Commitujte ovo kao promenu "Predavanja 13.05 Git Zadatak"
 Push-ujte na Github
+
+Resenje je
+git add osnove_jave/src/main/java/p13_05_2022
+git add osnove_jave/src/main/java/p13_05_2022
+git commit -m "Predavanja 13.05 Git Zadatak"
+git push
+
+
+zamena za vise git add-ova
+git add .=> sve promene baci u stage
+
+
+2.Git zadatak
+Preimenovati fajl Git_Zadatak1.java u Git_Zadatak1_updated. Napomena to radimo u intellj preko refactor-a.
+Dodajte tekst zadatka u tekstovi_zadatka.txt
+Stagujte sve promene
+Commitujte porukom "Update file name"
+Pushujte na github
