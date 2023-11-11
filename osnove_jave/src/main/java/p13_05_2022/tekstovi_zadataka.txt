@@ -21,3 +21,20 @@ Dodajte tekst zadatka u tekstovi_zadatka.txt
 Stagujte sve promene
 Commitujte porukom "Update file name"
 Pushujte na github
+
+
+Resenje je:
+git add. sa tackom jer se sve iz prebacuje u stage deo. da ne bi kucao git add/src/main/java/p13_05_2022...
+git status uvek kucamo da proverimo stanje
+git commit -m "Update file name"
+git push
+
+
+3.Git zadatak
+dopuniti .gitignore fajl novim redom tako da ignorise .log fajlove tako sto dodatenovi red u fajl
+*.log
+Azurirajte teksotve zadataka
+Kreirati novi fajl u paketu sa imenom ovaj_fajl_se_ignorise.log
+Proverite da li git status ne evidentira taj fajl
+Commitujte promenu kao "Update gitignore file"
+Pushu-jte na Github
